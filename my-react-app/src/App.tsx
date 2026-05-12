@@ -9,7 +9,7 @@ import DigitalArt from './Pages/DigitalArt';
 export default function App() {
   return (
     <Router>
-      <div className="h-screen bg-white overflow-x-hidden">
+      <div className="h-screen bg-black overflow-x-hidden">
         <Navbar />
 
         <main className="w-full">

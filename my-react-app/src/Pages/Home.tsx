@@ -6,14 +6,15 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="h-px bg-white w-full my-4 mt-0">
 
       <div className="h-px bg-gray-300 w-full my-4 mt-0"></div>
-      <div className="font-anonymous text-2xl">
+      
+      <div className="font-anonymous text-white-2xl">
       </div> 
       <div className="flex justify-start mt-10 ml-20">    
  <img src={cityImage}alt="City Portrait"className="ml-20 h-[300px] sm:h-[40px] md:h-[450px] lg:h-[450px] w-auto rounded-lg
-    shadow-none transition-transform duration-300 ease-in-out hover:scale-125 hover:shadow-lg hover:shadow-black/30"/>
+    shadow-none transition-transform duration-300 ease-in-out hover:scale-125 hover:shadow-lg hover:shadow-yellow/30"/>
     
   <div className="flex flex-col items-start ml-40">
   <div className="font-anonymous text-2xl mb-4 cursor-pointer hover:text-yellow-700 transition-colors duration-300">
