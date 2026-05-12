@@ -17,7 +17,7 @@ export default function Home() {
     shadow-none transition-transform duration-300 ease-in-out hover:scale-125 hover:shadow-lg hover:shadow-yellow/30"/>
     
   <div className="flex flex-col items-start ml-40">
-  <div className="font-anonymous text-2xl mb-4 cursor-pointer hover:text-yellow-700 transition-colors duration-300">
+  <div className="font-anonymous text-2xl mb-4 text-yellow-700 transition-colors">
     PIXEL ART
   </div>
   <div className="flex items-center justify-end gap-4">
@@ -34,7 +34,7 @@ export default function Home() {
 
   </div>
 
-  <div className="font-anonymous text-2xl mb-4 mt-4 cursor-pointer hover:text-yellow-700 transition-colors duration-300">
+  <div className="font-anonymous text-2xl mb-4 mt-4 text-yellow-700 transition-colors">
     DIGITAL ART
   </div>
   <div className="flex items-center justify-end gap-4">
